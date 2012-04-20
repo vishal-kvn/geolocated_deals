@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script> var clat="CLAT"; var clng="CLNG";</script>
+	  
+  </head>
+
+  <body>		
+	<div id="outer-container">  
+		<div id="header">  
+	    	<h1 style="text-align: center;">GeoLocated Groupon Deals</h1>  
+	    </div>  
+	    
+		<div style="clear: both"></div>  
+
+	    <div id="left-nav"> 
+			<h2 color="#ffffff">The green marker shows your current location. To get deals near you, click on the Show Deals button.</h2>
+	    	<h2>
+				<input type="button" id="showdeals" value="Show Deals Near You" /><br/>
+				<input type="button" id="nyc" value="New York Deals" /><br/>
+				<input type="button" id="la" value="Los Angeles Deals" />
+			</h2>  
+	    </div>  
+	    
+		<div id="map"></div>
+	
+	    <div style="clear: both"></div>  
+
+	</div>	
+  </body>
+</html>
